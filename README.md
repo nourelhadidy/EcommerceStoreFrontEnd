@@ -11,7 +11,6 @@ A responsive, editorial-style e-commerce front end built with **React**, **Mater
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Design System](#design-system)
 - [State Management](#state-management)
 - [Routing](#routing)
 - [Data Source](#data-source)
@@ -19,8 +18,6 @@ A responsive, editorial-style e-commerce front end built with **React**, **Mater
 - [Available Scripts](#available-scripts)
 - [Environment Notes](#environment-notes)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -117,33 +114,6 @@ src/
 
 ---
 
-## Design System
-
-All pages share a single set of design tokens to keep the UI visually consistent. These currently live as a local `BRAND` object duplicated at the top of each file — see [Roadmap](#roadmap) for a suggestion on centralizing this.
-
-```js
-const BRAND = {
-  ink: "#14141F",       // primary text / nav background
-  paper: "#FFFFFF",     // page background
-  panel: "#F4F3EF",     // alternate section background
-  wine: "#7A2B33",      // primary accent (hover states, CTAs)
-  brass: "#B7924A",     // secondary accent (ratings, dividers, eyebrows)
-  stone: "#6E6C68",      // muted/secondary text
-  hairline: "#E4E2DC",  // borders and dividers
-};
-```
-
-**Typography**
-- **Display / Headlines:** `Fraunces` (serif) — loaded from Google Fonts, used for all `h1`/`h2`-style headings and prices
-- **Body / UI:** `Inter` (sans-serif) — used for everything else
-
-**Signature UI patterns**
-- Product/category grids use `1px` hairline-colored gaps instead of card shadows to separate items — a "gallery wall" effect
-- All interactive elements (buttons, chips, inputs) use `border-radius: 0` for a sharp, editorial aesthetic
-- Section labels use an "Eyebrow" component: small uppercase wine-colored text with a short brass rule before it
-- Hover states swap to the wine accent color and subtly scale product images rather than lifting cards
-
----
 
 ## State Management
 
@@ -177,20 +147,6 @@ const dispatch = useDispatch();
 dispatch(addToCart(product));
 ```
 
-> The Navbar's cart **drawer**, however, currently fetches cart contents directly from the Fake Store API (`/carts/1`) rather than reading from the Redux `cart` slice. Consider consolidating this to a single source of truth — see [Roadmap](#roadmap).
-
-Don't forget to wrap your app root with the Redux `<Provider>`:
-
-```jsx
-import { Provider } from "react-redux";
-import store from "./store/store";
-
-<Provider store={store}>
-  <App />
-</Provider>
-```
-
----
 
 ## Routing
 
