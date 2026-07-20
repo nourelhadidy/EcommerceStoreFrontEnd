@@ -34,22 +34,13 @@ The app fetches live product, category, and cart data from the public Fake Store
 
 ## Screenshots
 
-<!--
-  Add your screenshots below. Drop the image files into a `screenshots/` (or `docs/`)
-  folder at the project root and update the paths to match your filenames.
--->
-
 | Home | Products |
 |------|----------|
-| ![Home page](<img width="1737" height="800" alt="image" src="https://github.com/user-attachments/assets/2ddef507-be5c-4cc8-a339-62128fa87e85" />
-) | ![Products page](<img width="1602" height="792" alt="image" src="https://github.com/user-attachments/assets/2473a60b-27ff-4697-b074-78dcf6d0423b" />
-) |
+| <img width="100%" alt="Home page" src="https://github.com/user-attachments/assets/2ddef507-be5c-4cc8-a339-62128fa87e85" /> | <img width="100%" alt="Products page" src="https://github.com/user-attachments/assets/2473a60b-27ff-4697-b074-78dcf6d0423b" /> |
 
 | Product Details | Cart Drawer |
 |-------------------|---------------|
-| ![Product details page](<img width="1363" height="845" alt="image" src="https://github.com/user-attachments/assets/82f3658d-daff-470d-9f6c-d0f5e9e430d8" />
-) | ![Cart drawer](<img width="1763" height="787" alt="image" src="https://github.com/user-attachments/assets/97c44299-2228-45e0-b612-27b9dd50546d" />
-) |
+| <img width="100%" alt="Product details page" src="https://github.com/user-attachments/assets/82f3658d-daff-470d-9f6c-d0f5e9e430d8" /> | <img width="100%" alt="Cart drawer" src="https://github.com/user-attachments/assets/97c44299-2228-45e0-b612-27b9dd50546d" /> |
 
 ---
 
