@@ -287,18 +287,3 @@ Ideas for hardening this into a production-ready app:
 
 ---
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
-Please keep new components consistent with the existing design tokens (`BRAND`, `FONT_DISPLAY`, `FONT_BODY`) and the sharp-edged, hairline-bordered visual language used throughout the app.
-
----
-
-## License
-
-This project is available under the [MIT License](LICENSE). Adjust as needed for your use case.
